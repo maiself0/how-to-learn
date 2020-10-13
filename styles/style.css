@@ -61,6 +61,7 @@
   z-index: 2;
   margin: 0 0 0 0;
 }
+
 .header__link {
   text-decoration: none;
   color: #2f80ed;
@@ -120,7 +121,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph::last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
