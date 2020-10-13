@@ -258,7 +258,6 @@
   align-items: center;
   position: relative;
   background-color: #1f1f1f;
-  background-size: contain;
   overflow: hidden;
   padding: 90px 0 0 0;
   z-index: 1;
@@ -272,6 +271,7 @@
   height: 877px;
   z-index: -1;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
 }
 
 .footer {
