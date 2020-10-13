@@ -74,7 +74,7 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  object-fit: cover; 
+  object-fit: cover;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -90,13 +90,13 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px auto 100px auto;
 }
 
 .two-columns {
   display: flex;
   width: 80%;
   justify-content: space-between;
+  margin: 100px auto 0 auto;
 }
 
 .two-columns__brief {
@@ -118,6 +118,10 @@
 .two-columns__paragraph {
   margin: 0 0 30px 0;
   font-weight: normal;
+}
+
+.two-columns__paragraph::last-child {
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -172,7 +176,7 @@
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px auto;	
+  margin: 0 auto 90px auto;
 }
 
 .table__cell {
@@ -254,6 +258,7 @@
   align-items: center;
   position: relative;
   background-color: #1f1f1f;
+  background-size: contain;
   overflow: hidden;
   padding: 90px 0 0 0;
   z-index: 1;
@@ -334,4 +339,4 @@
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
-} 
+}
