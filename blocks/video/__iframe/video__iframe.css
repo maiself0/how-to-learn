@@ -1,5 +1,8 @@
 iframe {
   margin: 0 20px 0 0;
+  width: 515px;
+  height: 316px;
+  border: 0;
 }
 
 iframe:nth-child(2) {
